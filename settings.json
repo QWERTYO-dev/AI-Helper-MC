@@ -1,4 +1,4 @@
-{
+  {
   "name": "AFK Bot",
   "bot-account": {
     "username": "COZY_Farmer",
@@ -11,7 +11,7 @@
     "version": "",
     "try-creative": false,
     "creative-mode-delay": 3000,
-    "connection-timeout": 20000,
+    "connection-timeout": 30000,
     "check-timeout-interval": 600000,
     "self-ping-interval": 600000,
     "memory-log-interval": 300000,
