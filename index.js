@@ -235,7 +235,7 @@ function createBot() {
     // -------------------------------------------------------
     bot.on('resource_pack_send', (url) => {
       console.log(`[ResourcePack] Declining pack request: ${url}`);
-      try { bot.acceptResourcePack(false); } catch (e) {
+      try { bot.acceptResourcePack(true); } catch (e) {
         console.log('[ResourcePack] Could not send decline response:', e.message);
       }
     });
